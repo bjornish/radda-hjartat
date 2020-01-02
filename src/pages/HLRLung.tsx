@@ -12,7 +12,7 @@ const HLRLung: React.FC = () => {
   return (
     <IonPage>
       <IonContent className='lung'>
-        <IonSegment mode='md' onIonChange={(e) => setSegment(e.detail.value as any)}>
+        <IonSegment onIonChange={(e) => setSegment(e.detail.value as any)}>
           <IonSegmentButton value='adult' checked={segment==='adult'}>
             <IonLabel>Vuxen</IonLabel>
           </IonSegmentButton>

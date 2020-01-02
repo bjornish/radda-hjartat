@@ -13,7 +13,7 @@ const SlideList: React.FC<SlideListProps> = (props) => {
       return(
         <IonItem key={index}>
           <IonCard>
-                <IonImg src={slide.img} />
+                <IonImg src={process.env.PUBLIC_URL + "/" +  slide.img} />
 
                 <IonCardHeader>
                   <IonCardSubtitle>

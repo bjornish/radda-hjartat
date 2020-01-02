@@ -11,7 +11,7 @@ const HLRHeart: React.FC = () => {
   return (
     <IonPage>
       <IonContent className='heart'>
-        <IonSegment mode='md' onIonChange={(e) => setSegment(e.detail.value as any)}>
+        <IonSegment onIonChange={(e) => setSegment(e.detail.value as any)}>
           <IonSegmentButton value='adult' checked={segment==='adult'}>
             <IonLabel>Vuxen</IonLabel>
           </IonSegmentButton>

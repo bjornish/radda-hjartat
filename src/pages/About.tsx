@@ -8,7 +8,7 @@ const About: React.FC = () => {
       <IonContent className='about'>
         <div className='padded-text-area'>
           <div className='about-page-img'>
-            <IonImg src='assets/heart.png'></IonImg>
+            <IonImg src={process.env.PUBLIC_URL + '/assets/heart.png'}></IonImg>
           </div>
 
           <IonText>

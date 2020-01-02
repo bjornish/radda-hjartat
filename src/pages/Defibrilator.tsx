@@ -82,7 +82,7 @@ const Defibrilator: React.FC = () => {
     <IonPage>
     
       <IonContent className='defibrilator'>
-        <div className='padded-text-area space-after'>
+        <div className='padded-text-area'>
           <IonText>
             <h1>Hjärtstartare</h1>
             <p>Hjärtstartare är en liten EKG-apparat (maskin som läser hjärtrytmen) som också kan ge en strömstöt om det behövs.</p>

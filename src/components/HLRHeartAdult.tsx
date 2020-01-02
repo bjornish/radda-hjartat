@@ -101,7 +101,7 @@ const slides = [
 const HLRHeartAdult: React.FC = () => {  
   return (
   	<div>
-      <div className="padded-text-area space-after">
+      <div className="padded-text-area">
     		<IonText>
     			<h1>Plötsligt hjärtstopp hos vuxen</h1>
     			<p>Vid ett plötsligt hjärtstopp förlorar hjärtat sin pumpande förmåga och blodcirkulationen upphör. Personen faller ihop livlös.</p>
