@@ -1,12 +1,12 @@
+import { IonButton, IonContent, IonPage, IonText, IonTitle } from '@ionic/react';
 import React from 'react';
-import { IonContent, IonHeader, IonItem, IonLabel, IonList, IonPage, IonTitle, IonToolbar, IonButton, IonCard, IonText } from '@ionic/react';
+import SlideList from "../components/SlideList";
 
-import SlideList from "../components/SlideList"
 
 const slides = [
   // {
-  //   media_src:'',
-  //   media_type:'image',
+  //   img:'',
+  //   
   //   title: 'HJÄRTSTARTARE',
   //   content:
   //   `<p>Hjärtstartare är en liten EKG-apparat (maskin som läser hjärtrytmen) som också kan ge en strömstöt om det behövs.</p>
@@ -15,8 +15,8 @@ const slides = [
   //   `
   // },
   {
-    media_src:'',
-    media_type:'image',
+    img:'assets/hjartstartare/forbered_for_hjartstartaren.png',
+    
     title: 'FÖRBERED FÖR HJÄRTSTARTAREN',
     content:
     `<ul>
@@ -27,8 +27,8 @@ const slides = [
     `
   },
   {
-    media_src:'',
-    media_type:'image',
+    img:'assets/hjartstartare/starta_hjartstartaren.png',
+    
     title: 'STARTA HJÄRTSTARTAREN',
     content:
     `<ul>
@@ -38,16 +38,16 @@ const slides = [
     `
   },
   {
-    media_src:'',
-    media_type:'image',
+    img:'assets/hjartstartare/ta_fram_elektroderna.png',
+    
     title: 'TA FRAM ELEKTRODERNA',
     content:
     `<p>Elektroderna är förpackade i en kasett, plastförpackning eller ask som är ansluten i eller på hjärtstartaren. Elektroderna kan också finnas i hjärtstartarens lock.</p>
     `
   },
   {
-    media_src:'',
-    media_type:'image',
+    img:'assets/hjartstartare/fast_elektroderna.png',
+    
     title: 'FÄST ELEKTRODERNA',
     content:
     `<ul>
@@ -58,16 +58,23 @@ const slides = [
     `
   },
   {
-    media_src:'',
-    media_type:'image',
+    img:'assets/hjartstartare/hjartstartaren_analyserar.png',
+    
     title: 'HJÄRTSTARTAREN ANALYSERAR',
     content:
-    `<p>Hör inte personen under analys av hjärtrytmen. Efetr analys ges instruktion om:.</p>
-    <p>Strömstöt - Kontrollera att ingen rör personen när strömstöt ges. Personen rycker till när strömstöten ges.</p>
-    <p>eller</p>
-    <p>Hjärt-lungräddning - Fortsätt hjärt-lungräddning om personen fortfarande inte andas normalt.</p>
+    `<p>Rör inte personen under analys av hjärtrytmen. Efter analys ges instruktion om:</p><br/>
+    <p><b>Strömstöt</b> - Kontrollera att ingen rör personen när strömstöt ges. Personen rycker till när strömstöten ges.</p><br/>
+    <p>eller</p><br/>
+    <p><b>Hjärt-lungräddning</b> - Fortsätt hjärt-lungräddning om personen fortfarande inte andas normalt.</p>
     `
-  }
+  },
+  {
+    img:'assets/hjartstartare/fortsatt_hjart-lungraddning.png',
+    
+    title: 'FORTSÄTT HJÄRT-LUNGRÄDDNING',
+    content:
+    `<p>Efter strömstöt fortsätter du med hjärt-lungräddning. Avbryt bara när hjärtstartaren avbryter för analys, personen visar tydliga livstecken eller personal från ambulans eller räddningstjänst kommer och tar över.</p>`
+  },  
 ]
 
 const Defibrilator: React.FC = () => {
@@ -91,7 +98,7 @@ const Defibrilator: React.FC = () => {
               <li>Registrerad i hjärtstartarregistret</li>
             </ul>
 */}            <p>I Sveriges Hjärtstartarregister kan du söka efter eller registrera en publik hjärtstartare.</p>
-            <IonButton expand="full">Hitta närmaste hjärtstartare</IonButton>
+            <IonButton expand="block" href="https://www.hjartstartarregistret.se/">Hitta närmaste hjärtstartare</IonButton>
           </IonText>
         </div>
 

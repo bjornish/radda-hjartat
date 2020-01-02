@@ -13,6 +13,40 @@ http://ionicframework.com/docs/theming/ */
   --ion-background-color:#F5EBF4;
 }
 
+.about {
+  --ion-background-color:#FBDFD9;
+}
+
+.about-page-img {
+  width:50%;
+  margin-top:20px;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+}
+
+/* .about-page-content{
+  height:100%;
+  margin-top:-20px;
+  padding-top:20px !important;
+  color:#000;
+  background:transparent;
+}
+
+.about-page-content > ion-text{
+  position:relative;
+}
+
+.about-page-background{
+  background: url('/assets/heart-sky.jpg') no-repeat center/auto 100%;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  opacity:0.5;
+  position:absolute;
+} */
+
 ion-segment{
   background-color: white;
 }

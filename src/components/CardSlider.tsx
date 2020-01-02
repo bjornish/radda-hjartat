@@ -1,7 +1,7 @@
+import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonIcon, IonSlide, IonSlides } from '@ionic/react';
 import React from 'react';
-import { IonContent, IonHeader, IonItem, IonLabel, IonList, IonPage, IonTitle, IonToolbar, IonButton, IonCard, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent, IonSlides, IonSlide, IonText, IonIcon, IonGrid, IonRow, IonCol } from '@ionic/react';
+import './CardSlider.css';
 
-import './CardSlider.css'
 
 type CardSliderProps = {
   slides: Array<any>

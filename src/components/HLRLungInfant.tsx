@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { IonContent, IonHeader, IonItem, IonLabel, IonList, IonPage, IonTitle, IonToolbar, IonButton, IonCard, IonText, IonSegment, IonSegmentButton } from '@ionic/react';
+import { IonText, IonTitle } from '@ionic/react';
+import React from 'react';
+import SlideList from '../components/SlideList';
 
-import SlideList from '../components/SlideList'
 
 const slides = [
 
