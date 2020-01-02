@@ -2,7 +2,7 @@
   "name": "radda-hjartat",
   "version": "0.0.1",
   "private": true,
-  "homepage": "http://bjornish.github.io/radda-hjartat",
+  "homepage": "https://bjornish.github.io/radda-hjartat",
   "dependencies": {
     "@capacitor/core": "1.3.0",
     "@ionic/react": "^4.11.0",

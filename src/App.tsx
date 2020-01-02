@@ -9,7 +9,7 @@ import {
   IonTabButton,
   IonTabs
 } from '@ionic/react';
-import { IonReactRouter } from '@ionic/react-router';
+import { IonReactHashRouter } from '@ionic/react-router';
 import { heart, medkit, more, pulse } from 'ionicons/icons';
 import HLRHeart from './pages/HLRHeart';
 import HLRLung from './pages/HLRLung';
@@ -38,7 +38,7 @@ import './theme/variables.css';
 
 const App: React.FC = () => (
   <IonApp>
-    <IonReactRouter basename='radda-hjartat/'>
+    <IonReactHashRouter basename='/radda-hjartat'>
       <IonTabs>
         <IonRouterOutlet>
           <Route path="/heart" component={HLRHeart} exact={true} />
@@ -68,7 +68,7 @@ const App: React.FC = () => (
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
-    </IonReactRouter>
+    </IonReactHashRouter>
   </IonApp>
 );
 
