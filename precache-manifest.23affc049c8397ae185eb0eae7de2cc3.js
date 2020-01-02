@@ -1,14 +1,14 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8238dc1742a9fb686a9f28f52f0780f3",
+    "revision": "7dffccde2f22d047af2460fe34dc9e4e",
     "url": "/radda-hjartat/index.html"
   },
   {
-    "revision": "0c9f65d21fae59599873",
+    "revision": "ed35fb92224a7475b26e",
     "url": "/radda-hjartat/static/css/10.49ed8f15.chunk.css"
   },
   {
-    "revision": "055a25695d478d64f2b7",
+    "revision": "b365793bed4f71fbe35e",
     "url": "/radda-hjartat/static/css/main.9495cf58.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/radda-hjartat/static/js/1.9a9ca740.chunk.js"
   },
   {
-    "revision": "0c9f65d21fae59599873",
-    "url": "/radda-hjartat/static/js/10.4ec5c09b.chunk.js"
+    "revision": "ed35fb92224a7475b26e",
+    "url": "/radda-hjartat/static/js/10.15271177.chunk.js"
   },
   {
     "revision": "ebe444fc957f7708c48c",
@@ -404,8 +404,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/radda-hjartat/static/js/99.d90a7021.chunk.js"
   },
   {
-    "revision": "055a25695d478d64f2b7",
-    "url": "/radda-hjartat/static/js/main.511c890c.chunk.js"
+    "revision": "b365793bed4f71fbe35e",
+    "url": "/radda-hjartat/static/js/main.b7b15cd9.chunk.js"
   },
   {
     "revision": "95d3296c6875624c59f9",
