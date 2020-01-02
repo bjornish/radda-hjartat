@@ -5,7 +5,7 @@ import SlideList from '../components/SlideList';
 
 const slides = [
   {
-    img:'/assets/hjartstopp/vuxen/kontrollera_medvetande.png',
+    img:'assets/hjartstopp/vuxen/kontrollera_medvetande.png',
     
     title: 'KONTROLLERA MEDVETANDE',
     content:
