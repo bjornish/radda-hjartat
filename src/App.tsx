@@ -38,7 +38,7 @@ import './theme/variables.css';
 
 const App: React.FC = () => (
   <IonApp>
-    <IonReactRouter>
+    <IonReactRouter basename='radda-hjartat/'>
       <IonTabs>
         <IonRouterOutlet>
           <Route path="/heart" component={HLRHeart} exact={true} />
