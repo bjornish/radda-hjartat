@@ -1,0 +1,7 @@
+{
+  "name": "radda-hjartat",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

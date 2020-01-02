@@ -1,0 +1,14 @@
+ion-slide {
+	height:auto !important;
+	align-items:start !important;
+}
+
+ion-card {
+/*	height: 100%;
+	width:80%;
+*/	text-align: left;
+}
+
+.contentdiv p{
+/*	margin-bottom: 1em;
+*/}
