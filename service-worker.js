@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/radda-hjartat/precache-manifest.8878953923ed82e049a55df971c7cd32.js"
+  "/radda-hjartat/precache-manifest.cb8853089bbdc45a0901d2ec7a04a08a.js"
 );
 
 self.addEventListener('message', (event) => {
