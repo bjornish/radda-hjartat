@@ -1,4 +1,4 @@
-import { IonText, IonTitle } from '@ionic/react';
+import { IonText } from '@ionic/react';
 import React from 'react';
 import SlideList from '../components/SlideList';
 
@@ -129,13 +129,12 @@ const HLRLungAdult: React.FC = () => {
   	<div>
   		<div className="padded-text-area">
 	  		<IonText>
-	  			<h1>Luftvägsstopp hos vuxen</h1>
 				<p>Person som inte talar, hostar eller andas normalt hjälper du med ryggslag och buktryck.</p>
 			 	<p>Person som kan tala eller hostar - stanna kvar hos personen tills de kan andas och tala normalt igen.</p>
-			 	<p>Person som satt i halsen och blivit medvetslös - larma 112 och gör hjärt-lungräddning.</p>			</IonText>
+			 	<p>Person som satt i halsen och blivit medvetslös - larma 112 och gör hjärt-lungräddning.</p>
+			</IonText>
 		</div>
 
-      	<IonTitle>Instruktioner för Hjärt-Lungräddning</IonTitle>
   		<SlideList slides={slides} />
   	</div>
   );

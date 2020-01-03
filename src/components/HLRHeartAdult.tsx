@@ -1,4 +1,4 @@
-import { IonText, IonTitle } from '@ionic/react';
+import { IonText } from '@ionic/react';
 import React from 'react';
 import SlideList from '../components/SlideList';
 
@@ -103,14 +103,12 @@ const HLRHeartAdult: React.FC = () => {
   	<div>
       <div className="padded-text-area">
     		<IonText>
-    			<h1>Plötsligt hjärtstopp hos vuxen</h1>
     			<p>Vid ett plötsligt hjärtstopp förlorar hjärtat sin pumpande förmåga och blodcirkulationen upphör. Personen faller ihop livlös.</p>
     			<p>Hjärt-Lungräddning håller igång blodcirkulationen och en strömstöt från en hjärtstartare kan få hjärtat att pumpa sjävligen.</p>
     			<p>För varje minut som går utan åtgärder minskar chansen att överleva med ca 10%.</p>
     		</IonText>
        </div>
 
-      <IonTitle>Instruktioner för Hjärt-Lungräddning</IonTitle>
       <SlideList slides={slides} />
   	</div>
   );

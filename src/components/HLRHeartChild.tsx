@@ -1,4 +1,4 @@
-import { IonText, IonTitle } from '@ionic/react';
+import { IonText } from '@ionic/react';
 import React from 'react';
 import SlideList from '../components/SlideList';
 
@@ -122,14 +122,13 @@ const HLRHeartChild: React.FC = () => {
   	<div>
       <div className="padded-text-area">
     		<IonText>
-    			<h1>Plötsligt hjärtstopp hos barn (1 år - puberteten)</h1>
+  				<p>Instruktioner för barn i åldern 1 år till puberteten.</p>
           <p>Hjärtstopp hos barn är mycket ovanligt och beror oftast på syrebrist men även barn kan drabbas av plötsligt hjärtstopp på grund av hjärt-kärlsjukdom.</p>
           <p>Hjärt-lungräddning till barn börjar därför med fem inblåsningar och fortsätter med 30 kompressioner och två inblåsningar.</p>
           <p>Larma 112 så snart som möjligt.</p>
         </IonText>
       </div>
 
-      <IonTitle>Instruktioner för Hjärt-Lungräddning</IonTitle>
   		<SlideList slides={slides} />
   	</div>
   );

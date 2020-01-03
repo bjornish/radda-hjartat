@@ -17,6 +17,14 @@ http://ionicframework.com/docs/theming/ */
   --ion-background-color:#FBDFD9;
 }
 
+h1{
+  font-size: 26px;
+}
+
+h2{
+  font-size: 20px;
+}
+
 .about-page-img {
   width:50%;
   margin-top:20px;

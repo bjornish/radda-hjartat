@@ -97,12 +97,14 @@ const Defibrilator: React.FC = () => {
               <li>Underhållen med batteri och elektroder</li>
               <li>Registrerad i hjärtstartarregistret</li>
             </ul>
-*/}            <p>I Sveriges Hjärtstartarregister kan du söka efter eller registrera en publik hjärtstartare.</p>
-            <IonButton expand="block" href="https://www.hjartstartarregistret.se/">Hitta närmaste hjärtstartare</IonButton>
+*/}            
+              <p>I Sveriges Hjärtstartarregister kan du söka efter eller registrera en publik hjärtstartare.</p>
+              <IonButton expand="block" href="https://www.hjartstartarregistret.se/">Hitta närmaste hjärtstartare</IonButton>
+              <br/>
+          		<h2>Instruktioner för handhavande</h2>
           </IonText>
         </div>
 
-        <IonTitle>Instruktioner för handhavande</IonTitle>
         <SlideList slides={slides} />
 
 {/*        <IonText>

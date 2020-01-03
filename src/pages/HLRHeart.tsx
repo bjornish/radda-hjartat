@@ -1,4 +1,4 @@
-import { IonContent, IonLabel, IonPage, IonSegment, IonSegmentButton } from '@ionic/react';
+import { IonContent, IonLabel, IonPage, IonSegment, IonSegmentButton, IonText } from '@ionic/react';
 import React, { useState } from 'react';
 import HLRHeartAdult from '../components/HLRHeartAdult';
 import HLRHeartChild from '../components/HLRHeartChild';
@@ -11,6 +11,10 @@ const HLRHeart: React.FC = () => {
   return (
     <IonPage>
       <IonContent className='heart'>
+        <div className="padded-text-area">
+          <h1>Hjärt-lungräddning vid plötsligt hjärtstopp</h1>
+        </div>
+
         <IonSegment onIonChange={(e) => setSegment(e.detail.value as any)}>
           <IonSegmentButton value='adult' checked={segment==='adult'}>
             <IonLabel>Vuxen</IonLabel>

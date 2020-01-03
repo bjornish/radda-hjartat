@@ -1,4 +1,4 @@
-import { IonText, IonTitle } from '@ionic/react';
+import { IonText } from '@ionic/react';
 import React from 'react';
 import SlideList from '../components/SlideList';
 
@@ -153,13 +153,12 @@ const HLRLungInfant: React.FC = () => {
   	<div>
   		<div className="padded-text-area">
 	  		<IonText>
-	  			<h1>Luftvägsstopp spädbarn</h1>
+				<p>Instruktioner för spädbarn i åldern 0 - 1 år.</p>
 				<p>Barn som sätter i halsen kan ofta hosta upp föremålet själva. Att hosta är det bästa sättet att få upp något som fastnat i halsen</p>
 				<p>Tecken på luftvägsstopp kan vara plötslig hosta, väsande eller ansträngd andning. Vid totalt luftvägsstopp kan barnet inte hosta, det hörs inga andningsljud, barnet har panik i blicken och får snart blåaktig ansiktsfärg på grund av syrebrist.</p>
 				<p>Ropa högt för att få hjälp att larma 112. Bedöm och åtgärda</p>
-			</IonText>
+		</IonText>
 		</div>
-      	<IonTitle>Instruktioner för Hjärt-Lungräddning</IonTitle>		
   		<SlideList slides={slides} />
   	</div>
   );

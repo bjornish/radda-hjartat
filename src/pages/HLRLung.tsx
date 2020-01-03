@@ -12,6 +12,10 @@ const HLRLung: React.FC = () => {
   return (
     <IonPage>
       <IonContent className='lung'>
+        <div className="padded-text-area">
+          <h1>Hjärt-lungräddning vid luftvägsstopp</h1>
+        </div>
+
         <IonSegment onIonChange={(e) => setSegment(e.detail.value as any)}>
           <IonSegmentButton value='adult' checked={segment==='adult'}>
             <IonLabel>Vuxen</IonLabel>

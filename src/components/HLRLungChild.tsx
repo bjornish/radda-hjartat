@@ -1,4 +1,4 @@
-import { IonText, IonTitle } from '@ionic/react';
+import { IonText } from '@ionic/react';
 import React from 'react';
 import SlideList from '../components/SlideList';
 
@@ -152,14 +152,13 @@ const HLRLungChild: React.FC = () => {
   return (
   	<div>
   		<div className="padded-text-area">
-		<IonText>
-			<h1>Luftvägsstopp hos barn</h1>
-		<p>Om barnet kan hosta eller tala - bäst är om barnet själva kan hosta upp föremålet. Uppmana att hosta, stanna med barnet tills barnet kan tala och andas normalt igen.</p>
-		<p>Om barnet talar, hostar eller andas med svårighet måste du hjälpa till med ryggslag och buktryck.</p>
-		<p>Om barnet satt i halsen och blivit medvetslöst - larma 112 och gör hjärt-lungräddning.</p>
-	</IonText>
+			<IonText>
+				<p>Instruktioner för barn i åldern 1 år till puberteten.</p>
+				<p>Om barnet kan hosta eller tala - bäst är om barnet själva kan hosta upp föremålet. Uppmana att hosta, stanna med barnet tills barnet kan tala och andas normalt igen.</p>
+				<p>Om barnet talar, hostar eller andas med svårighet måste du hjälpa till med ryggslag och buktryck.</p>
+				<p>Om barnet satt i halsen och blivit medvetslöst - larma 112 och gör hjärt-lungräddning.</p>
+			</IonText>
 		</div>
-      	<IonTitle>Instruktioner för Hjärt-Lungräddning</IonTitle>
   		<SlideList slides={slides} />
   	</div>
   );
