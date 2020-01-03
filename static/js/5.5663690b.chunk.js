@@ -1,0 +1,2 @@
+(this["webpackJsonpradda-hjartat"]=this["webpackJsonpradda-hjartat"]||[]).push([[5],{189:function(t,n,e){"use strict";e.r(n),e.d(n,"startStatusTap",(function(){return o}));var a=e(23),o=(e(3),function(){var t=window;t.addEventListener("statusTap",(function(){Object(a.g)((function(){var n=t.innerWidth,e=t.innerHeight,o=document.elementFromPoint(n/2,e/2);if(o){var r=o.closest("ion-content");r&&r.componentOnReady().then((function(){Object(a.m)((function(){return r.scrollToTop(300)}))}))}}))}))})}}]);
+//# sourceMappingURL=5.5663690b.chunk.js.map
