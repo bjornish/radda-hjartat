@@ -36,6 +36,8 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+import lungs from "./lungs-silhouette.svg"
+
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter basename='/radda-hjartat'>
@@ -55,7 +57,7 @@ const App: React.FC = () => (
             <IonLabel>Hjärtstopp</IonLabel>
           </IonTabButton>
           <IonTabButton tab="lung" href="/lung">
-            <IonIcon icon={pulse} />
+            <IonIcon src={lungs} />
             <IonLabel>Luftvägsstop</IonLabel>
           </IonTabButton>
           <IonTabButton tab="defibrilator" href="/defibrilator">
