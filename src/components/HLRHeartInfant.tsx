@@ -59,7 +59,7 @@ const slides = [
   {
     img:'assets/hjartstopp/spadbarn/gor_30_brostkompressioner.png',
     
-    title: 'GÖR 30 BRÖSTKOMPRESSIONER',
+    title: 'GÖR 30 BRÖST-KOMPRESSIONER',
     content:
     `<ul>
       <li>Placera pek- och långfinger på den nedre halvan av bröstbenet.</li>

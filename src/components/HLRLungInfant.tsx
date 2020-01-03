@@ -110,7 +110,7 @@ const slides = [
 	{
 		img:'assets/luftvagsstopp/spadbarn/gor_30_brostkompressioner.png',
 		
-		title: 'GÖR 30 BRÖSTKOMPRESSIONER',
+		title: 'GÖR 30 BRÖST-KOMPRESSIONER',
 		content:
 		`<p>Placera pek- och långfinger på nedre halvan av bröstbenet.</p>
 		<ul>

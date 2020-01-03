@@ -64,6 +64,10 @@ ion-card{
   text-align: left;
 }
 
+ion-card-header{
+  padding-bottom: 8px;
+}
+
 .padded-text-area{
   padding: 0 16px;
 }

@@ -58,7 +58,7 @@ const slides = [
   {
     img:'assets/hjartstopp/vuxen/gor_30_kompressioner.png',
     
-    title: 'GÖR 30 BRÖSTKOMPRESSIONER',
+    title: 'GÖR 30 BRÖST-KOMPRESSIONER',
     content:
     `<p>Placera ena handloven mitt på bröstbenet mellan bröstvårtorna. Placera andra handen rakt ovanpå. Håll raka armar.</p>
     <ul>

@@ -70,7 +70,7 @@ const slides = [
 	{
 		img:'assets/luftvagsstopp/vuxen/gor_30_brostkompressioner.png',
 		
-		title: 'GÖR 30 BRÖSTKOMPRESSIONER',
+		title: 'GÖR 30 BRÖST-KOMPRESSIONER',
 		content:
 		`<p>Placera ena handloven mitt på bröstbenet mellan bröstvårtorna. Placera den andra handen rakt ovanför. Håll raka armar.</p>
 		<ul>
